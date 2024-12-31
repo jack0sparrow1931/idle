@@ -17,7 +17,7 @@ setInterval(function() {
 }, speed[0] * 1000)
 
 function buy(upgrade) {
-  if (upgrade == nil) {
+  if (upgrade == null) {
     console.log('buy new rings:\nnext ring for 50 points\ntype "buy("next")"')
   }
 
